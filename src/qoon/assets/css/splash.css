@@ -1,0 +1,105 @@
+.splash_container{
+    background: black;
+    flex-direction: column;
+    margin: 0px;
+    display: flex;
+    height: 200vh;
+}
+.splash_container__header {
+    /* background:red; */
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex:1;
+    flex-direction:column;
+    /* justify-content: center; */
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+
+.splash_container__header > h1{
+    color:white;
+    margin:0px;
+}
+
+.splash_container__header > h3{
+    color:white;
+    margin:0px;
+    text-align: center;
+}
+
+
+.splash_container__header > h3 > span{
+    color:#1cadff;
+}
+
+/* .splash_container__header > h1 > strong > span{
+    color:#1cadff;
+} */
+.splash_container__header > .playbutton_container{
+    display: flex;
+    /* height: 10vh;
+    width: 10vh; */
+    /* background: #262626; */
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.splash_container__header > .playbutton_container > a{
+    color:white;
+    /* font-size: xx-large; */
+    margin:0px;
+    text-decoration: none;
+}
+.splash_container__header > .playbutton_container > a:hover{
+    color:#1cadff;
+    font-size: xx-large;
+    margin:0px;
+    text-decoration: none;
+}
+
+.splash_container__header > img {
+    height: 20vh;
+    border-radius: 50px;
+    
+}
+
+.splash_container__header > .mockup_container{
+    /* background: red; */
+    margin-top: 10px;
+    height: 50px;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+
+.splash_container__header > .mockup_container img{
+    height: 50vh;
+    background: -webkit-linear-gradient(left, #1cadff, #ffff);
+    border-radius: 60px;
+    padding:0px;
+    margin-right: 20px;
+}
+
+
+.splash_container__footer {
+    /* background:red; */
+    margin:0px;
+    width: 80vw;
+    align-self: center;
+    /* background: red; */
+
+    margin-top: 20px;
+    display: flex;
+    flex:1;
+    flex-direction:column;
+    /* justify-content: center; */
+    /* align-items:center; */
+}
+.splash_container__footer  > p{
+    color:white;
+    margin:0px;
+}

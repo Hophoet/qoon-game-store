@@ -1,0 +1,21 @@
+.row_container{ 
+    /* background: red; */
+    color: white;
+    /* text-align: center; */
+}
+
+.developer{
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+strong{
+    /* color: -ebkit-linear-gradient(left, #1cadff, #ffff); */
+    /* background: -moz-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
+    background: -webkit-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
+    background: linear-gradient(135deg, #ff8c05 0%, #d61a5e 100%);
+    background: -webkit-linear-gradient(left, #1cadff, #ffff); */
+    /* color:#1cadff; */
+
+}
